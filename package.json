@@ -1,0 +1,31 @@
+{
+  "name": "yt-playlist-analyser",
+  "version": "1.0.0",
+  "description": "This project calculates the total duration of all videos in a given playlist, adjusting for different playback speeds. It helps users estimate the actual time required to watch a playlist when played at speeds like 1.25x, 1.5x, or 2x.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "googleapis": "^144.0.0",
+    "helmet": "^8.0.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.10.1",
+    "winston": "^3.17.0",
+    "yt-playlist-analyser": "file:"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.4",
+    "eslint": "^9.20.1",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
